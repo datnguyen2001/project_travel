@@ -1,0 +1,160 @@
+footer {
+    padding: 100px 0px 30px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1001;
+    /*position: */
+;
+}
+
+footer .introduce {
+    color: white;
+}
+
+footer .introduce p {
+    margin: 30px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+footer .network ul li {
+    list-style: none;
+    /* display: inline-block; */
+    border: 0.3px solid white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+footer .network ul li:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-right: none;
+}
+footer .network ul li:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left: none;
+}
+
+footer .network ul {
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+}
+
+.outlook h3, .service h3 {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.outlook ul, .service ul{
+    margin-top: 21px;
+    list-style: none;
+    padding-left: 18px;
+}
+
+.outlook ul li a, .service ul li a  {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.outlook ul li, .service ul li  {
+    margin: 8px 0px;
+    position: relative;
+}
+
+.outlook ul li:before ,  .service ul li::before{
+    content: '';
+    position: absolute;
+    border-right:2px solid #FFFFFF;
+    border-bottom:2px solid #FFFFFF;
+    width:6px;
+    height: 6px;
+    top: 50%;
+    left: -14px;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+
+.subscribes h3 {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.subscribes p {
+    margin: 21px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+.subscribes input.email {
+    padding: 10px 16px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+}
+
+.subscribes .input-email {
+    position: relative;
+}
+
+.subscribes button {
+    position: absolute;
+    right: 0;
+    border-top-right-radius: 8px;
+    height: 100%;
+    width: 60px;
+    border: none;
+    background: #0FD200;
+    border-bottom-right-radius: 8px;
+    color: white;
+    font-size: 23px;
+}
+.bottom-footer {
+    color: #FFFFFF;
+    text-align: center;
+    border-top: 1px solid white;
+    padding-top: 33px;
+    margin-top: 90px;
+}
+
+@media (max-width:1024px) {
+    footer {
+        padding-top: 25px;
+    }
+    footer .network ul li {
+        list-style: none;
+        /* display: inline-block; */
+        border: 0.3px solid white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: 1.5rem;
+    }
+    footer .col-md-2 {
+        float: left;
+        width: 50%;
+    }
+    footer .col-md-4 {
+        clear: both;
+    }
+    .bottom-footer {
+        padding-top: 33px;
+        margin-top: 23px;
+    }
+
+}

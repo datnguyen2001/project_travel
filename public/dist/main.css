@@ -1,0 +1,265 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    color: #FFFFFF!important;
+}
+
+.breadcrumb-page {
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    position: relative;
+    padding-top: 130px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.breadcrumb-page:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.breadcrumb-page > * {
+    position: relative;
+}
+.breadcrumb-page__title {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 0.75rem;
+}
+.breadcrumb-page__nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #FFFFFF;
+}
+.breadcrumb-page__nav ul li {
+    display: inline-block;
+}
+.breadcrumb-page__nav ul li:not(:last-child):after {
+    content: "/";
+    display: inline-block;
+    font-family: "Font Awesome 5 Pro";
+    margin: 0 0.5rem;
+}
+.breadcrumb-page__nav ul li a.active {
+    color: #FFFFFF;
+    cursor: context-menu;
+}
+@media (max-width: 767px) {
+    .breadcrumb-page__title {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 575px) {
+    .breadcrumb-page {
+        padding-top: 73px;
+        margin-top: -53px;
+        padding-bottom: 190px;
+    }
+    .breadcrumb-page__title {
+        font-size: 1.2em;
+        margin-bottom: 0.3rem;
+    }
+    .breadcrumb-info{
+        position: absolute;
+        bottom:1.3rem;
+    }
+}
+.text-green{
+    color: #0FD200;
+}
+.bg-green{
+    background: #0FD200;
+}
+@media (max-width: 1367px) and (min-width: 1023px){
+    .container{
+        max-width: 90% !important;
+    }
+}
+
+
+/*item blog*/
+.card-review{
+    background: #FFFFFF;
+    margin-bottom: 2rem;
+}
+.image-review{
+    width: 100%;
+    object-fit: cover;
+}
+.content-review{
+    padding: 1rem;
+}
+.title-review {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #111827;
+    margin-bottom: .5rem;
+}
+.detail-review{
+    align-items: center;
+    color: #4B5563;
+}
+.footer-review{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.date-review{
+    font-size: .9rem;
+    color: #4B5563;
+}
+.rating-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.number-rating{
+    font-size: .9rem;
+    color: #111827;
+}
+.load-more-button{
+    text-align: center;
+}
+.btn-view-all{
+    background: #FFFFFF;
+    border: 1.5px solid #0FD200;
+    border-radius: 8px;
+    color: #0FD200;
+    font-weight: 600;
+    padding: .5rem 1.5rem;
+    margin-bottom: 3.5rem;
+}
+.btn-view-all:hover{
+    color: #fff;
+    background: #0FD200;
+}
+.content-drop-1-line{
+    display: -webkit-box!important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content-drop-2-line{
+    display: -webkit-box!important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content-drop-3-line{
+    display: -webkit-box!important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.content-drop-4-line{
+    display: -webkit-box!important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+#product-2{
+    background-size: cover!important;
+}
+.img-vertical {
+    height: 392px;
+}
+.img-horizontal {
+    height: 273px;
+}
+img.img-new-horizontal-big {
+    height: 485px;
+}
+img.img-new-horizontal-small {
+    height: 194px;
+}
+img.img-booking {
+    width: 256px;
+    height: 170px;
+}
+img.img-booking-big {
+    height: 234px;
+    width: 351px;
+}
+.img-booking-small {
+    height: 76px;
+    width: 121px;
+}
+
+img.img-travel-big{
+    height: 410px;
+}
+
+img.img-travel-small{
+    height: 110px;
+}
+
+img.img-culinary-big{
+    height: 468px;
+}
+img.img-culinary-small{
+    height: 186px;
+}
+
+@media (max-width:1400px) {
+    .img-vertical {
+        height: 252px;
+        width: 188px !important;
+    }
+    .img-horizontal {
+        height: 252px;
+        width: 188px !important;
+    }
+    .img-view{
+        width: 100%!important;
+        height: 226px!important;
+        object-fit: cover;
+    }
+    img.img-new-horizontal-big {
+        height: 437px;
+    }
+    img.img-new-horizontal-small {
+        height: 174px;
+    }
+}
+img.img-address-item{
+    width: 82px;
+    height: 82px;
+}
+img.img-data{
+    object-fit: cover;
+}
+img.img-category-item{
+    width: 48px;
+    height: 48px;
+}
+@media (max-width: 1400px){
+    .img-mb {
+        height: auto;
+        width: 100% !important;
+    }
+}
+@media (max-width: 426px){
+    .img-mb {
+        height: auto;
+        width: 100% !important;
+    }
+}

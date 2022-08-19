@@ -1,0 +1,184 @@
+.feature-detail-mobile{
+    margin-bottom: 24px;
+}
+.block-feature{
+    padding: 2rem 0 31px 0!important;
+}
+
+.block-connection{
+    padding: 1rem 2rem 1rem 2rem!important;
+    flex-direction: column;
+}
+.connection-image{
+    margin-right: 0!important;
+}
+.connection-detail{
+    width: 110%;
+    margin-top: 1rem;
+    text-align: center;
+}
+.connection-title{
+    font-size: 18px!important;
+}
+#connection{
+    margin-top: 0!important;
+    background-color: #FFF!important;
+}
+.connection-desc{
+    font-size: 14px!important;
+    margin-top: 1rem;
+}
+.connection-info{
+    display: block!important;
+}
+.block-what-in-the-app{
+    padding: 31px!important;
+}
+.what-title{
+    font-size: 18px!important;
+    text-align: center!important;
+}
+.what-info, .what-item-image{
+    margin-right: 0!important;
+}
+.what-item{
+    position: relative;
+    margin-top: 24px!important;
+}
+.what-item-title{
+    margin-top: 1rem!important;
+}
+.block-travel-guide{
+    background: white!important;
+    padding: 31px!important;
+}
+.guide-title{
+    font-size: 18px!important;
+}
+.guide-short-desc{
+    font-size: 14px!important;
+}
+.guide-main{
+    margin-top: 0!important;
+    overflow: auto!important;
+}
+.guide-card{
+    width: auto!important;
+    height: auto!important;
+    text-align: center!important;
+    box-shadow: none!important;
+}
+.block-location-search{
+    padding: 0 31px 31px 31px!important;
+    display: block!important;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-location{
+    width: 85%;
+    margin: 0 auto!important;
+}
+.location-title{
+    margin-top: 1rem!important;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px!important;
+    color: #000000;
+}
+.location-desc{
+    font-weight: 400;
+    font-size: 14px!important;
+    color: #000000;
+    text-align: left;
+}
+
+#connection-2{
+    background: #FFF!important;
+}
+.block-connection-2{
+    text-align: center!important;
+    padding: 0 31px!important;
+}
+.connection-2-main{
+    display: block!important;
+}
+.connection-2-detail{
+    margin-right: 0!important;
+}
+
+.block-connection-3{
+    background: #FFF!important;
+    padding: 0 31px 31px 31px!important;
+    margin-top: 30px!important;
+}
+.connection-3-header{
+    text-align: center;
+}
+.connection-3-header h3{
+    font-weight: 600;
+    font-size: 18px!important;
+    color: black!important;
+    width: 100% !important;
+    margin: 0 auto;
+}
+.connection-3-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    overflow: auto!important;
+    padding-bottom: 30px!important;
+}
+.card-cn-3{
+    min-width: 250px !important;
+    height: auto !important;
+    background: #FFFFFF;
+    box-shadow: 16px 8px 16px rgba(62, 19, 77, 0.07) !important;
+    border-radius: 16px;
+    text-align: center!important;
+    margin-right: 1rem!important;
+}
+.guide-card-title, .guide-card-desc{
+    font-size: 14px!important;
+}
+
+.block-support{
+    background: #FFF!important;
+    padding: 31px!important;
+    display: block!important;
+}
+.image-support{
+    width: 85%;
+    margin-right: 0!important;
+    margin-bottom: 15px!important;
+}
+.logo{
+    margin-bottom: 10px!important
+}
+.support-phone{
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #E93940;
+}
+
+.img-bg-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img-bg-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.img-bg-3{
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+.img-bg-4{
+    position: absolute;
+    bottom:0;
+    left: 0;
+}

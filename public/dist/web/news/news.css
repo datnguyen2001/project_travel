@@ -1,0 +1,126 @@
+#culinary {
+    background: #F9FAFB;
+    padding: 2.5rem 0 2.5rem 0;
+}
+
+.layout-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 36px 36px;
+}
+
+
+.title-news {
+    margin: 2.5rem auto 2rem auto;
+}
+
+.title-travel {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 0 0;
+    background: #FFFFFF;
+    border-top: none;
+}
+
+.card h5 {
+    font-weight: 600;
+}
+
+.page-item {
+    margin-right: 10px;
+}
+
+.pagination-group {
+    /*margin-left: 61%;*/
+    /*transform: translateX(-50%);*/
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-group:last-child {
+    margin-bottom: 60px
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    margin-top: 2.5rem;
+}
+
+.page-link {
+    color: black !important;
+    background: #F5F5F5;
+    font-weight: 700;
+}
+
+.page-link.active, .page-link:hover {
+    background: #0FD200;
+    color: #FFFFFF !important;
+}
+
+.feedback-and-review {
+    margin-top: 2rem;
+}
+
+.feedback-and-review .card-review {
+    background: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.feedback-and-review .image-review {
+    width: 100%;
+    object-fit: cover;
+}
+
+.feedback-and-review .content-review {
+    padding: 1rem;
+}
+
+.feedback-and-review .title-review {
+    font-weight: 600;
+    color: #111827;
+}
+
+.feedback-and-review .detail-review {
+    align-items: center;
+    color: #4B5563;
+}
+
+.feedback-and-review .footer-review {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback-and-review .date-review {
+    font-size: .9rem;
+    color: #4B5563;
+}
+
+.feedback-and-review .number-rating {
+    font-size: .9rem;
+    color: #111827;
+}
+.loading{
+    background: #33333330;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    opacity: 0;
+}
+.loading.active{
+    z-index: 100;
+    opacity: 1;
+}

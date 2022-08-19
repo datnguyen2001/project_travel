@@ -1,0 +1,438 @@
+.booking {
+    background: #F9FAFB;
+    padding: 50px 0 50px 0;
+}
+
+.category-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider-category__item {
+    background: #FFFFFF;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(211, 192, 214, 0.07);
+    border-radius: 16px;
+}
+
+.slick-slide {
+    margin: 0 10px 0 10px;
+}
+
+.slider-desc {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 16px 0 16px 0;
+}
+
+.feedback-and-review {
+    margin-top: 2rem;
+}
+
+.feedback-and-review .card-review {
+    background: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.feedback-and-review .image-review {
+    width: 100%;
+    object-fit: cover;
+}
+
+.feedback-and-review .content-review {
+    padding: 1rem;
+}
+
+.feedback-and-review .title-review {
+    font-weight: 600;
+    color: #111827;
+}
+
+.feedback-and-review .detail-review {
+    align-items: center;
+    color: #4B5563;
+}
+
+.feedback-and-review .footer-review {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback-and-review .date-review {
+    font-size: .9rem;
+    color: #4B5563;
+}
+
+.feedback-and-review .number-rating {
+    font-size: .9rem;
+    color: #111827;
+}
+
+.load-more-button {
+    text-align: center;
+}
+
+.btn-view-all {
+    background: #FFFFFF;
+    border: 1.5px solid #0FD200;
+    border-radius: 8px;
+    color: #0FD200;
+    font-weight: 600;
+    padding: .5rem 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.btn-view-all:hover {
+    color: #fff;
+    background: #0FD200;
+}
+
+.card-d-none {
+    display: none;
+}
+
+.booking-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.filter-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #111827;
+}
+
+.filter-reset {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #0086FE;
+}
+
+.container-block-search {
+    margin: 65px 0 0 0;
+}
+
+.filter-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.block-filter-detail {
+    background: #FFFFFF;
+    box-shadow: 0 10px 15px rgba(211, 192, 214, 0.07);
+}
+
+.filter-range {
+    border-top: 1px solid #E5E7EB;
+    padding: 16px;
+}
+
+.filter-quality {
+    padding: 16px;
+}
+
+.list-star {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+    padding: 10px 0 0 15px;
+}
+
+.block-star {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.input-star {
+    background: #9CA3AF;
+    width: 18px;
+    height: 18px;
+}
+
+.filter-distance {
+    padding: 16px;
+}
+
+.condition-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.condition-desc {
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #111827;
+}
+
+.input-search {
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    padding: .5rem 3rem;
+    margin-bottom: 30px;
+}
+.btn-search{
+    position: absolute;
+    top: 22%;
+    left: 10px;
+    border: none;
+    background: none;
+}
+
+.result-item {
+    background: #FFFFFF;
+    box-shadow: 0 10px 15px rgba(211, 192, 214, 0.07);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.room-detail {
+    padding: 16px 0 16px 16px;
+    width: 100%;
+}
+
+.room-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #111827;
+}
+
+.room-price {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #0FD200;
+    margin-bottom: .5rem;
+}
+
+.room-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.625rem;
+    color: #4B5563;
+}
+
+.room-address {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.room-bed {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0 5px;
+}
+
+.room-address-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #4B5563;
+}
+
+.rateting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number-rating {
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #111827;
+}
+
+.category-name {
+    font-weight: 600;
+    font-size: 16px;
+    color: #111827 !important;
+    margin-top: 1rem !important;
+}
+
+#category img {
+    margin: 0 auto;
+}
+
+#category .prev-arrow.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    left: -5%;
+    background: #0FD200;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    border: none;
+}
+
+#category .next-arrow.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    right: -5%;
+    background: #0FD200;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    border: none;
+}
+
+/* Price Range */
+price-range {
+    --thumb-size: 15px;
+    --thumb-color: #0FD200;
+    --track-color: #E5E7EB;;
+    --track-highlight-color: #0FD200;
+
+    width: 100%;
+    display: block;
+}
+
+/* Price Range Containers */
+price-range > div {
+    position: relative;
+    width: 100%;
+    height: var(--thumb-size);
+}
+
+price-range > div > div {
+    width: 100%;
+    height: 1px;
+    background: var(--track-color);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* Price Range Input */
+price-range input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* Price Range Input Track */
+price-range input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+}
+
+price-range input[type="range"]::-moz-range-track {
+    -moz-appearance: none;
+    height: 5px;
+}
+
+price-range input[type="range"]::-ms-track {
+    appearance: none;
+    height: 5px;
+}
+
+/* Price Range Input Thumb */
+price-range input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    margin-top: -5px;
+    width: var(--thumb-size);
+    height: var(--thumb-size);
+    background: var(--thumb-color);
+    border: none;
+    border-radius: 50%;
+    pointer-events: auto;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 var(--thumb-color);
+    transition: box-shadow 0.15s ease;
+}
+
+price-range input[type="range"]::-moz-range-thumb {
+    -moz-appearance: none;
+    width: var(--thumb-size);
+    height: var(--thumb-size);
+    background: var(--thumb-color);
+    border: none;
+    border-radius: 50%;
+    pointer-events: auto;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 var(--thumb-color);
+    transition: box-shadow 0.15s ease;
+}
+
+price-range input[type="range"]::-ms-thumb {
+    appearance: none;
+    width: var(--thumb-size);
+    height: var(--thumb-size);
+    background: var(--thumb-color);
+    border: none;
+    border-radius: 50%;
+    pointer-events: auto;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 var(--thumb-color);
+    transition: box-shadow 0.15s ease;
+}
+
+price-range input[type="range"]::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 2px var(--thumb-color);
+}
+
+price-range input[type="range"]::-moz-range-thumb:hover {
+    box-shadow: 0 0 0 2px var(--thumb-color);
+}
+
+price-range input[type="range"]::-ms-thumb:hover {
+    box-shadow: 0 0 0 2px var(--thumb-color);
+}
+
+/* Price Range Output */
+price-range output {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.block-blog {
+    margin: 65px 0 0 0;
+}
+
+.block-booking-detail {
+    margin: 65px 0 0 0;
+}
+.slider-category__item.active a{
+    border: 2px solid #0FD200;
+}
+.slider-category__item a{
+    padding: 16px 0;
+    display:  flex;
+    width: 100%;
+    justify-content: center;
+    border-radius: 16px;
+}

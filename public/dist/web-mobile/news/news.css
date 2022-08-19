@@ -1,0 +1,156 @@
+#culinary {
+    background: #FFFFFF;
+    padding: 1.5rem 0 1rem 0!important;
+}
+.banner {
+    margin-top: 0!important;
+}
+.layout-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 36px 36px;
+}
+
+
+.title-news {
+    margin: 2.5rem auto 2rem auto;
+}
+
+.title-travel {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 0 0;
+    background: #FFFFFF;
+    border-top: none;
+}
+
+.card h5 {
+    font-weight: 600;
+}
+
+.page-item {
+    margin-right: 10px;
+}
+
+.pagination-group {
+    margin-left: 61%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+}
+
+.pagination-group:last-child {
+    margin-bottom: 80px
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    margin-top: 2.5rem;
+}
+
+.page-link {
+    color: black !important;
+    background: #F5F5F5;
+    font-weight: 700;
+}
+
+.page-link.active, .page-link:hover {
+    background: #0FD200;
+    color: #FFFFFF !important;
+}
+
+.feedback-and-review {
+    margin-top: 1rem!important;
+}
+
+.feedback-and-review .card-review {
+    background: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.feedback-and-review .image-review {
+    width: 258px!important;
+    height: 131px!important;
+    object-fit: cover;
+}
+
+.feedback-and-review .content-review {
+    padding: 1rem;
+}
+
+.feedback-and-review .title-review {
+    font-weight: 600;
+    color: #111827;
+}
+
+.feedback-and-review .detail-review {
+    align-items: center;
+    color: #4B5563;
+}
+
+.feedback-and-review .footer-review {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback-and-review .date-review {
+    font-size: .9rem;
+    color: #4B5563;
+}
+
+.feedback-and-review .number-rating {
+    font-size: .9rem;
+    color: #111827;
+}
+
+.feedback-and-review{
+    display: -webkit-inline-box;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.slider-product__item {
+    margin-right: 1.25rem;
+}
+
+.card-review-main {
+    margin-right: 20px;
+}
+.title-review {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 375px) {
+    .card-review-main {
+        max-width: 279px;
+        height: 445px;
+    }
+    .title-review h3, .title-blog h3, .title-name-1{
+        font-size: 1.25rem !important;
+    }
+}
+
+@media (min-width: 380px) {
+    .card-review-main {
+        max-width: 410px;
+        height: 445px;
+    }
+    .title-travel h3, .title-news h3{
+        font-size: 1.25rem !important;
+    }
+}

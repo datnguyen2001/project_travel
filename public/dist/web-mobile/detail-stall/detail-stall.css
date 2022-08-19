@@ -1,0 +1,204 @@
+body, .main{
+    background: #FFFFFF;
+}
+#detail-culinary{
+    background: #FFFFFF;
+}
+.mobile h5{
+    font-size: 1.125rem;
+}
+.mobile .top-title-review-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile .button-show-more{
+    color: #0FD200!important;
+    font-weight: bold!important;
+    font-size: .875rem!important;
+}
+.img-obf-cover{
+    object-fit: cover;
+}
+.mobile .image-main{
+    height: 198px!important;
+}
+.block-detail-culinary{
+    padding: 1.5rem 0 3rem 0;
+}
+.title{
+    font-weight: 600;
+    font-size: .75rem;
+    margin-bottom: 1rem;
+}
+.list-image{
+    margin-bottom: 1rem;
+}
+.image-extra{
+    margin-top: 0;
+}
+.long-desc{
+    margin-top: 1.5rem;
+}
+.right-top{
+    border-bottom: 1px solid #E5E7EB;
+}
+.mobile .top-title{
+    margin-bottom: 1rem;
+}
+.title-right{
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #111827;
+    margin: 1rem;
+}
+.address-main{
+    margin-top: 2rem;
+}
+.discover-food{
+    margin-top: 2rem;
+}
+.discover-food h5{
+    margin-bottom: 0!important;
+}
+.discover-food .top-title-review-block{
+    margin-bottom: 1rem!important;
+}
+
+
+/*    PRODUCT*/
+.img-wrap {
+    position: relative;
+    border-radius: 2rem 0;
+    overflow: hidden;
+}
+.menu-home-2 .img-wrap img {
+    width: 100%;
+}
+.mobile .slider-product-block{
+    display: flex;
+    overflow: auto!important;
+}
+.mobile .slider-product{
+    width: 250px!important;
+    padding-bottom: 1rem;
+}
+.slider-product .tag {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: white;
+    background: #54DA41;
+    font-size: 0.875rem;
+    padding: 0.125rem 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+
+.slider-product .tag p {
+    margin: 0;
+}
+
+.slider-product .desc {
+    padding: 0.625rem;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    width: 100%;
+    color: white;
+    text-align: left;
+}
+
+.slider-product .title {
+    font-weight: 600;
+    font-size: .875rem;
+    display: inline;
+}
+.mobile .slider-product .rating-block{
+    font-size: .75rem;
+}
+.mobile .slider-product .rating-block .star-rating{
+    width: 15px;
+    height: 15px;
+}
+.slider-product .star {
+    float: right;
+}
+.slider-product .star i {
+    color: yellow;
+}
+
+.slider-product .address {
+    clear: both;
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin: 0.625rem 0px;
+}
+
+.slider-product .name {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+.slider-product .name p {
+    margin: 0px;
+}
+.list-product{
+    margin-bottom: 2rem;
+}
+.mobile .discover-food .slider-product{
+    margin-right: 1.5rem!important;
+}
+.mobile .discover-food .img-wrap{
+    width: 188px;
+}
+.mobile .discover-food .img-vertical{
+    height:  300px!important;
+}
+.mobile .content-detail{
+    margin-top: 1.5rem;
+    text-align: justify;
+}
+.mobile .content-2, .content-3, .content-4, .content-5, .video-category, .list-store{
+    margin-top: 1.5rem;
+}
+
+.mobile .list-store h5{
+    margin-bottom: 1rem;
+}
+.mobile .list-store .store-block{
+    display: flex;
+    overflow: auto;!important;
+}
+.mobile .list-store .store-item{
+    display: flex;
+    align-items: center;
+    width: 340px!important;
+    padding-bottom: 1rem;
+}
+.mobile .list-store .img-store{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.mobile .list-store .detail-store{
+    margin-left: .5rem;
+    width: 340px!important;
+    margin-right: 10px;
+}
+.mobile .list-store .location-store{
+    display: flex;
+    margin: .25rem 0 .25rem 0!important;
+}
+.mobile .list-store .name-store{
+    font-weight: bold;
+}
+.mobile .list-store .address-store{
+    font-size: .875rem;
+}
+.mobile .list-store .view-map{
+    color: #376FFF!important;
+    font-weight: bold;
+    font-size: .875rem;
+}

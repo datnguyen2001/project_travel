@@ -1,0 +1,42 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 50%;
+    right: 1%;
+    background: #E5E7EB;
+    cursor: pointer;
+    z-index: 100000;
+    display: none;
+}
+@media (max-width:1900px) {
+    .scroll-to-top {
+        right: 1%;
+    }
+}
+@media (max-width:1550px) {
+    .scroll-to-top {
+        right: 1%;
+    }
+}
+@media (max-width: 1367px) and (min-width: 1023px){
+    .scroll-to-top {
+        right: 1%;
+    }
+}
+.scroll-to-top object {
+    padding: 1rem 1.1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.scroll-to-top .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E5E7EB;
+    border-radius: 45px;
+}
+
+.scroll-to-top .phone,.scroll-to-top .mail ,.scroll-to-top .message  {
+    background: #F9FAFB;
+}

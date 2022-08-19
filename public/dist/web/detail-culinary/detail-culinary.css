@@ -1,0 +1,178 @@
+#detail-culinary{
+    background: #F9FAFB;
+}
+.block-detail-culinary{
+    padding: 48px 0 48px 0;
+}
+.title{
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.short-desc{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.image-extra{
+    margin-top: 1rem;
+}
+.long-desc{
+    margin-top: 1.5rem;
+}
+.detail-right{
+    background: #FFFFFF;
+    box-shadow: 0 10px 15px rgba(211, 192, 214, 0.07);
+    border-radius: 4px;
+}
+.right-top{
+    border-bottom: 1px solid #E5E7EB;
+}
+.address-item{
+    border-bottom: 1px solid #E5E7EB;
+}
+.address-item:last-child{
+    border-bottom: none;
+}
+.title-right{
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #111827;
+    margin: 1rem;
+}
+.address-detail{
+    margin-left: .5rem;
+}
+.address-item{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.address-title{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.address-map{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: .875rem;
+    color: #111827;
+    margin: .25rem 0 .25rem 0;
+}
+.add-view-map{
+    font-weight: 600;
+    font-size: .875rem;
+    color: #376FFF!important;
+}
+.address-main{
+    margin-top: 4rem;
+}
+.discover-food{
+    margin-top: 4rem;
+}
+
+/*    PRODUCT*/
+.img-wrap {
+    position: relative;
+    border-radius: 2rem 0;
+    overflow: hidden;
+}
+.menu-home-2 .img-wrap img {
+    width: 100%;
+}
+.slider-product__item .tag {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: white;
+    background: #54DA41;
+    font-size: 0.875rem;
+    padding: 0.125rem 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+
+.slider-product__item .tag p {
+    margin: 0;
+}
+
+.slider-product__item .desc {
+    padding: 0.625rem;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    width: 100%;
+    color: white;
+    text-align: left;
+}
+
+.slider-product__item .title {
+    font-weight: 600;
+    font-size: 1rem;
+    display: inline;
+}
+.slider-product__item .star {
+    float: right;
+}
+.slider-product__item .star i {
+    color: yellow;
+}
+
+.slider-product__item .address {
+    clear: both;
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin: 0.625rem 0px;
+}
+
+.slider-product__item .name {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+.slider-product__item .name p {
+    margin: 0px;
+}
+.prev-arrow.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    left: -5%;
+    background: #0FD200;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    border: none;
+}
+.next-arrow.slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    right: -5%;
+    background: #0FD200;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    border: none;
+}
+.list-product{
+    margin-bottom: 2rem;
+}
+/*SLIDE*/
+.slick-slide{
+    margin:0 10px 0 10px;
+}
+.text-ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+}

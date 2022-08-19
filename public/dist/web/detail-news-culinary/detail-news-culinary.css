@@ -1,0 +1,37 @@
+.detail-news{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.author{
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+}
+.author-title{
+    color: #4B5563;
+}
+div .image-content-main{
+    margin-bottom: 1rem;
+}
+.image-content-main{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.content-block{
+    margin-bottom: 1rem;
+}
+.content-block p{
+    font-weight: bold;
+}
+.text-justify{
+    text-align: justify;
+}
+#detail-news-blog{
+    margin-bottom: 7rem;
+}
+.title-blog{
+    margin-bottom: 2rem;
+}
+.cooking .title-cooking-blog{
+    font-weight: bold;
+}

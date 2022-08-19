@@ -1,0 +1,149 @@
+.contact-block {
+    background-color: #FFF!important;
+}
+.mobile .contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem!important;
+    padding-bottom: 1rem!important;
+}
+
+.mobile .form-contact {
+    justify-content: space-between;
+    align-items: center;
+    padding: 66px 0 66px 0;
+}
+
+.mobile .contact-image {
+    display: flex;
+    justify-content: center;
+}
+
+.mobile .contact-content {
+    margin-right: 0;
+    max-width: none;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile .hero-content-image {
+        max-width: 70%;
+        left: 15%;
+    }
+
+    .mobile .hero-content-patterns {
+        max-width: 100%;
+        right: 0;
+        top: 25px;
+    }
+
+    .mobile .hero-content-chart {
+        max-width: 20%;
+        top: 60px;
+        right: 40px;
+    }
+
+    .mobile .contact-box-phone {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .mobile .icon-contact-1 {
+        max-width: 30%;
+        margin-right: 12px;
+    }
+
+    .mobile .contact-box-desc {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .mobile .contact-box-top {
+        width: 150px;
+        right: 330px;
+        top: 160px;
+        padding: 10px;
+    }
+
+    .mobile .contact-box-bottom {
+        bottom: -10px;
+        left: 270px;
+        padding-left: 0;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .mobile .contact-box-top {
+        width: 150px;
+        right: 300px;
+        top: 140px;
+        padding: 10px;
+    }
+
+    .mobile .contact-box-bottom {
+        bottom: -40px;
+        left: 200px;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .mobile .icon-contact-1 {
+        max-width: 30%;
+        margin-right: 10px
+    }
+
+    .mobile .contact-box-top {
+        width: 145px;
+        right: 270px;
+        top: 120px;
+        padding: 10px;
+    }
+
+    .mobile .contact-box-bottom {
+        bottom: -40px;
+        left: 190px;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .mobile .contact-box-top {
+        right: 255px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .mobile .contact-box-top {
+        right: 240px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .mobile .contact-box-top {
+        top: 75px;
+        right: 200px;
+    }
+
+    .mobile .contact-box-bottom {
+        bottom: -40px;
+        left: 150px;
+        padding-left: 0;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .mobile .contact-box-top {
+        top: 60px;
+        right: 165px;
+    }
+
+    .mobile .contact-box-bottom {
+        bottom: -50px;
+        left: 135px;
+        padding-left: 0;
+        max-width: 100%;
+    }
+}
