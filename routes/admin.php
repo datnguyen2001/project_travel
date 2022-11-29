@@ -24,6 +24,8 @@ use \App\Http\Controllers\Admin\SupportController;
 use \App\Http\Controllers\Admin\BannerDescriptionController;
 use \App\Http\Controllers\Admin\TouristController;
 use \App\Http\Controllers\Admin\IntroduceVPController;
+use \App\Http\Controllers\Admin\TourController;
+use \App\Http\Controllers\Admin\BookTourController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -139,6 +141,25 @@ Route::middleware('check-admin-auth')->group(function () {
             Route::post('update/{id}', [BookRoomController::class, 'convenientUpdate'])->name('update');
         });
     });
+    //tour
+    Route::prefix('tour')->name('tour.')->group(function (){
+        Route::prefix('category')->name('category.')->group(function (){
+            Route::get('', [TourController::class, 'category'])->name('index');
+            Route::get('create', [TourController::class, 'createCategory'])->name('create');
+            Route::post('store', [TourController::class, 'storeCategory'])->name('store');
+            Route::get('edit/{slug}', [TourController::class, 'editCategory'])->name('edit');
+            Route::post('update/{slug}', [TourController::class,'updateCategory'])->name('update');
+            Route::post('delete/{id}', [TourController::class, 'deleteCategory'])->name('delete');
+        });
+        Route::prefix('tour_area')->name('tour_area.')->group(function (){
+            Route::get('', [TourController::class, 'index'])->name('index');
+            Route::get('create', [TourController::class, 'create'])->name('create');
+            Route::post('store', [TourController::class, 'store'])->name('store');
+            Route::get('edit/{slug}', [TourController::class, 'edit'])->name('edit');
+            Route::post('update/{id}', [TourController::class, 'update'])->name('update');
+            Route::post('delete/{id}', [TourController::class, 'delete'])->name('delete');
+        });
+    });
     // Khám phá du lịch
     Route::prefix('explore_tourism')->name('explore_tourism.')->group(function (){
         Route::prefix('category')->name('category.')->group(function (){
@@ -240,6 +261,11 @@ Route::middleware('check-admin-auth')->group(function () {
         Route::get('', [BookRoomController::class, 'bookRoom'])->name('index');
         Route::get('contact', [BookRoomController::class, 'bookRoomContact'])->name('contact');
         Route::post('sale/{id}', [BookRoomController::class, 'sale']);
+    });
+    Route::prefix('book_tour')->name('book_tour.')->group(function (){
+        Route::get('', [BookTourController::class, 'bookTour'])->name('index');
+        Route::get('contact', [BookTourController::class, 'bookTourContact'])->name('contact');
+        Route::post('sale/{id}', [BookTourController::class, 'sale']);
     });
     /**
      * Xóa hình ảnh liên quan

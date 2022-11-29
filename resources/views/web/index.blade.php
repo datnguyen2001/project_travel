@@ -1,9 +1,9 @@
 @extends('web.layouts.master')
-@section('title','Vĩnh Phúc Travel')
+@section('title','Hà Nội Travel')
 {{--meta--}}
 @section('meta')
     <meta name="description" content=""/>
-    <meta name="keywords" content="Trang chủ - Vĩnh Phúc Travel">
+    <meta name="keywords" content="Trang chủ - Hà Nội Travel">
 @stop
 
 {{--style for page--}}

@@ -2,7 +2,7 @@
 
 <footer id="footer" class="footer">
     <div class="copyright">
-        &copy; Copyright <strong><span>Wins International</span></strong>.
+{{--        &copy; Copyright <strong><span>Nhà Làm</span></strong>.--}}
     </div>
 </footer><!-- End Footer -->
 

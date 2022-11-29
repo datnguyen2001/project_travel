@@ -108,4 +108,29 @@ $(document).ready(function () {
             }
         });
     });
+
+    $(".btn-touring").click(function () {
+        let data = {};
+        data['hotel_id'] = $(this).val();
+        $.ajax({
+            url: window.location.origin + '/touring/show-tour',
+            data: data,
+            type: 'post',
+            dataType: 'json',
+            success: function (data) {
+                if(data.status){
+                    $(".popup-form").html(data.prop);
+                    $(".popup-form").addClass("active");
+                }else{
+                    Swal.fire({
+                        title: data.msg,
+                        icon: "error",
+                        showCancelButton: true,
+                        confirmButtonText: "Xác nhận!"
+                    });
+                }
+            }
+        });
+    });
+
 });

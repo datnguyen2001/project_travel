@@ -138,6 +138,24 @@ return [
             ]
         ],
         [
+            'name' => 'Tour',
+            'title' => 'tour',
+            'icon' => 'bi bi-grid',
+            'route' => null,
+            'submenu' => [
+                [
+                    'title' => 'Danh mục tour',
+                    'route' => 'admin.tour.category.index',
+                    'name' => 'category-in'
+                ],
+                [
+                    'title' => 'Danh sách tour',
+                    'route' => 'admin.tour.tour_area.index',
+                    'name' => 'tour-in'
+                ]
+            ]
+        ],
+        [
             'name' => 'book_room',
             'title' => 'Danh sách khách đặt phòng',
             'icon' => 'bi bi-grid',
@@ -151,6 +169,24 @@ return [
                 [
                     'title' => 'Đã liên hệ ',
                     'route' => 'admin.book_room.contact',
+                    'name' => 'contact'
+                ],
+            ]
+        ],
+        [
+            'name' => 'book_tour',
+            'title' => 'Danh sách khách đặt tour',
+            'icon' => 'bi bi-grid',
+            'route' => null,
+            'submenu'=> [
+                [
+                    'title' => 'Chưa liên hệ ',
+                    'route' => 'admin.book_tour.index',
+                    'name' => 'index'
+                ],
+                [
+                    'title' => 'Đã liên hệ ',
+                    'route' => 'admin.book_tour.contact',
                     'name' => 'contact'
                 ],
             ]
@@ -288,7 +324,7 @@ return [
         ],
         [
             'name' => 'introduceVP',
-            'title' => 'Giới thiệu về vĩnh phúc',
+            'title' => 'Giới thiệu về hà nội',
             'icon' => 'bi bi-grid',
             'route' => null,
             'submenu' => [
@@ -301,7 +337,7 @@ return [
                     'route' => 'admin.introduce_VP.geographical.index',
                     'name' => 'geographical'
                 ],[
-                    'title' => 'Truyền thống và con người   ',
+                    'title' => 'Truyền thống và con người',
                     'route' => 'admin.introduce_VP.tradition.index',
                     'name' => 'tradition'
                 ]

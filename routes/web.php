@@ -11,6 +11,7 @@ use App\Http\Controllers\Web\ExploreStallController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Web\SubscribesController;
 use \App\Http\Controllers\Web\TourController;
+use \App\Http\Controllers\Web\TouringController;
 
 /*
 |--------------------------------------------------------------------------
@@ -60,6 +61,14 @@ Route::prefix('')->name('web.')->group(function () {
         Route::post('book-room/{id}', [BookingController::class, 'bookRoom'])->name('room');
         Route::post('show-hotel', [BookingController::class, 'showHotel']);
         Route::post('book-hotel/{id}',[BookingController::class, 'bookHotel'])->name('hotel');
+    });
+
+    Route::prefix('touring')->name('touring.')->group(function (){
+        Route::get('', [TouringController::class, 'index'])->name('index');
+        Route::get('{slug}', [TouringController::class, 'detailTouring'])->name('detail');
+        Route::get('category/{slug}', [TouringController::class,'category']);
+        Route::post('slide', [TouringController::class, 'getImgRoom']);
+        Route::post('book-hotel/{id}',[TouringController::class, 'bookHotel'])->name('hotel');
     });
 
     Route::get('review/{slug}', [NewsController::class, 'review'])->name('articles.detail');

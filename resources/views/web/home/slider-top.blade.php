@@ -57,9 +57,9 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{route('web.touring.index')}}">
                         <img src="{{asset('images/menu-home/menu-top-5.svg')}}">
-                        <p>Ưu đãi hot</p>
+                        <p>Tour</p>
                     </a>
                 </li>
                 <li>
