@@ -96,7 +96,7 @@
                             bản đồ</a>
                     </div>
                     <div class="mt-3">
-                        <button class="btn btn-success btn-touring" value="{{$hotel->id}}">Đặt phòng</button>
+                        <button class="btn btn-success btn-touring" value="{{$hotel->id}}">Đặt Tour</button>
                     </div>
                 </div>
                 <div class="booking-list-image">

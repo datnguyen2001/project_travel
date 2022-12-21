@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="mt-2">
-        <p class="text-center text-info">Thông tin liên hệ đặt phòng</p>
+        <p class="text-center text-info">Thông tin liên hệ đặt tour</p>
         <label>Họ và tên (<span style="color: #E93940">*</span>)</label>
         <input class="form-control" type="text" name="name" required placeholder="Họ và tên">
         <div class="d-flex mt-3">

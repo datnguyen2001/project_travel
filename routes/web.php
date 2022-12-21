@@ -68,6 +68,8 @@ Route::prefix('')->name('web.')->group(function () {
         Route::get('{slug}', [TouringController::class, 'detailTouring'])->name('detail');
         Route::get('category/{slug}', [TouringController::class,'category']);
         Route::post('slide', [TouringController::class, 'getImgRoom']);
+        Route::post('show-tour', [TouringController::class, 'showTour']);
+
         Route::post('book-hotel/{id}',[TouringController::class, 'bookHotel'])->name('hotel');
     });
 
@@ -77,6 +79,8 @@ Route::prefix('')->name('web.')->group(function () {
     Route::get('kham-pha-gian-hang/{slug}', [ExploreStallController::class, 'detailStall'])->name('explore-stall.detail');
     Route::post('slide-mon-an', [ExploreStallController::class, 'getImgRoom']);
     Route::get('kham-pha-gian-hang/danh-muc/{id}', [ExploreStallController::class, 'category'])->name('explore-stall.category');
+        Route::post('show-hotel', [BookingController::class, 'showHotel']);
+    
     Route::post('contact/store', [ContactController::class, 'store'])->name('contact.store');
 
 

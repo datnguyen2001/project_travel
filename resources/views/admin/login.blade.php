@@ -46,7 +46,7 @@
                         <div class="d-flex justify-content-center py-4">
                             <a href="index.html" class="logo d-flex align-items-center w-auto">
                                 <img src="{{asset('/images/logo/vptravel.png')}}" style="max-height: 60px">
-                                <span class="d-none d-lg-block text-capitalize">du lịch vĩnh phúc</span>
+                                <span class="d-none d-lg-block text-capitalize">du lịch hà nội</span>
                             </a>
                         </div><!-- End Logo -->
 

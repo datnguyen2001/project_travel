@@ -187,4 +187,22 @@ class TouringController extends Controller
             return back()->with(['booking_error' => $exception->getMessage()]);
         }
     }
+
+    public function showTour(Request $request)
+    {
+        try {
+            $hotel = TourAreaModel::find($request->get('hotel_id'));
+            if (empty($hotel)) {
+                $data['status'] = false;
+                $data['msg'] = 'Tour không tồn tại';
+                return $data;
+            }
+            $view = view('web.touring.form_booking_hotel', compact('hotel'))->render();
+            return response()->json(['status' => true, 'prop' => $view]);
+        } catch (\Exception $exception) {
+            $data['status'] = false;
+            $data['msg'] = $exception->getMessage();
+            return $data;
+        }
+    }
 }
